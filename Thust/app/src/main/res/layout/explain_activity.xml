@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textexplain"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="1.由于涉及隐私问题以及相关手机品牌硬件的支持程度，本app不支持魅族，小米以及android7.0以下的用户使用，还请谅解。"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="319dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="189dp"
+        android:text="2.在第一次使用统计功能时，会弹出窗口提示您打开相关权限，若您未发打开，后续将不再会弹出，需要您到设置里自行打开查看其他app的权限。"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="310dp"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="3.由于技术原因，本app只支持两天之内的app统计情况（时间，次数等），相关技术正在研究当中，敬请谅解。"
+        android:textSize="20dp" />
+</RelativeLayout>
